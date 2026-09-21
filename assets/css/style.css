@@ -1,0 +1,138 @@
+:root {
+  color-scheme: light;
+  --ink: #202632;
+  --muted: #606b7a;
+  --accent: #215c9e;
+  --rule: #e6eaf0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font: 17px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+
+.paper-content, .site-footer {
+  width: calc(100% - 64px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.paper-content { padding-top: 52px; }
+.paper-content > p, .paper-content > ul, .paper-content > ol {
+  max-width: 960px;
+  margin: 16px auto;
+}
+
+h1, h2, h3 {
+  color: #182332;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+h2 { margin: 60px 0 20px; font-size: 29px; }
+h3 { margin: 38px 0 20px; font-size: 23px; }
+.paper-content > h2, .paper-content > h3 {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+li + li { margin-top: 10px; }
+
+/* The opening README block is: project name, paper title, authors, affiliations. */
+.paper-content > h1:first-child {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-size: 48px;
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  text-align: center;
+}
+
+.paper-content > h1:first-child + h2 {
+  max-width: 1040px;
+  margin: 0 auto 24px;
+  font-size: clamp(27px, 3vw, 36px);
+  font-weight: 650;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.paper-content > h1:first-child + h2 + p {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.paper-content > h1:first-child + h2 + p + p {
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 15px;
+  text-align: center;
+}
+
+.paper-content > h1:first-child + h2 + p + p + p {
+  max-width: 900px;
+  margin-top: 26px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Full-width figures; retain explicit widths such as Fig.1's 480px. */
+.paper-content > p:has(img) { max-width: none; margin: 26px 0 16px; }
+.paper-content img { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.paper-content a:has(img) { display: block; }
+.paper-content a img { cursor: zoom-in; }
+
+.paper-content > p:has(img[src$="-rd.png"]) + p,
+.paper-content > p:has(img[src$="-comparison.png"]) + p {
+  margin-top: 10px;
+  margin-bottom: 32px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.site-footer {
+  margin-top: 44px;
+  margin-bottom: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-size: 14px;
+  text-align: center;
+}
+
+.skip-link {
+  position: fixed;
+  top: -80px;
+  left: 16px;
+  z-index: 10;
+  padding: 8px 16px;
+  background: #fff;
+  border: 2px solid var(--accent);
+}
+.skip-link:focus { top: 12px; }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; line-height: 1.7; }
+  .paper-content, .site-footer { width: calc(100% - 32px); }
+  .paper-content { padding-top: 30px; }
+  .paper-content > h1:first-child { font-size: 39px; }
+  .paper-content > h1:first-child + h2 { font-size: 26px; }
+  .paper-content > h1:first-child + h2 + p { font-size: 16px; }
+  .paper-content > h1:first-child + h2 + p + p { font-size: 14px; }
+  .paper-content > h1:first-child + h2 + p + p + p { font-size: 16px; }
+  h2 { margin-top: 42px; font-size: 25px; }
+  h3 { margin-top: 30px; font-size: 21px; }
+  .paper-content > p:has(img) { margin-top: 20px; }
+}

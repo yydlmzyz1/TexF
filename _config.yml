@@ -1,0 +1,22 @@
+title: TexF
+description: Surface-aligned texture fields for mesh texture compression.
+url: https://yydlmzyz1.github.io
+baseurl: /TexF
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Render README.md as the homepage without duplicating its content.
+plugins:
+  - jekyll-readme-index
+
+titles_from_headings:
+  strip_title: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

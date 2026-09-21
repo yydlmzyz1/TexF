@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | default: site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <main id="main-content" class="paper-content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <a href="https://github.com/yydlmzyz1/TexF">View on GitHub</a>
+  </footer>
+  <script>
+    // Keep README images unchanged; add full-resolution links on the website.
+    document.querySelectorAll('.paper-content img').forEach(function (image) {
+      if (image.closest('a')) return;
+      var link = document.createElement('a');
+      link.href = image.src;
+      link.title = 'View full-resolution image';
+      link.setAttribute('aria-label', 'View full-resolution image: ' + image.alt);
+      image.parentNode.insertBefore(link, image);
+      link.appendChild(image);
+    });
+  </script>
+</body>
+</html>
