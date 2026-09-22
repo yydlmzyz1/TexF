@@ -7,6 +7,7 @@ Jianqiang Wang, Junhui Hou, Siyu Ren, Weiyao Lin, Wenping Wang
 City University of Hong Kong · Shanghai Jiao Tong University · Texas A&M University
 
 <div class="project-links" align="center">
+  <a href="https://yydlmzyz1.github.io/TexF/">Project Page</a> &nbsp;·&nbsp;
   <a href="https://arxiv.org/abs/2609.23606">Paper (arXiv)</a> &nbsp;·&nbsp;
   <a href="https://arxiv.org/pdf/2609.23606">PDF</a>
 </div>
