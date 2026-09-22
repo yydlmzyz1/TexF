@@ -80,12 +80,30 @@ li + li { margin-top: 10px; }
   text-align: center;
 }
 
-.paper-content > h1:first-child + h2 + p + p + p {
+.project-links { margin: 22px auto 0; text-align: center; }
+.project-links a { font-weight: 600; }
+
+.paper-content > .project-links + p {
   max-width: 900px;
   margin-top: 26px;
   margin-bottom: 30px;
   font-size: 18px;
   text-align: center;
+}
+
+/* Keep the copyable citation within the text column on desktop and mobile. */
+.paper-content > div.highlighter-rouge {
+  max-width: 960px;
+  margin: 20px auto;
+}
+pre {
+  margin: 0;
+  padding: 18px 20px;
+  overflow-x: auto;
+  background: #f6f8fa;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  font: 13px/1.65 ui-monospace, Consolas, monospace;
 }
 
 /* Full-width figures; retain explicit widths such as Fig.1's 480px. */
@@ -131,7 +149,7 @@ li + li { margin-top: 10px; }
   .paper-content > h1:first-child + h2 { font-size: 26px; }
   .paper-content > h1:first-child + h2 + p { font-size: 16px; }
   .paper-content > h1:first-child + h2 + p + p { font-size: 14px; }
-  .paper-content > h1:first-child + h2 + p + p + p { font-size: 16px; }
+  .paper-content > .project-links + p { font-size: 16px; }
   h2 { margin-top: 42px; font-size: 25px; }
   h3 { margin-top: 30px; font-size: 21px; }
   .paper-content > p:has(img) { margin-top: 20px; }

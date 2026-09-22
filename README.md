@@ -6,6 +6,11 @@ Jianqiang Wang, Junhui Hou, Siyu Ren, Weiyao Lin, Wenping Wang
 
 City University of Hong Kong · Shanghai Jiao Tong University · Texas A&M University
 
+<div class="project-links" align="center">
+  <a href="https://arxiv.org/abs/2609.23606">Paper (arXiv)</a> &nbsp;·&nbsp;
+  <a href="https://arxiv.org/pdf/2609.23606">PDF</a>
+</div>
+
 TexF uses the mesh surface itself to organize and access texture in 3D, rather than mapping it to a separate 2D UV atlas. It supports both compact bitstreams for transmission and GPU-resident compression for real-time rendering.
 
 <p align="center">
@@ -50,6 +55,21 @@ Texture reconstruction at the indicated GPU memory footprints. TexF/3DNTC combin
 
 ## Updates
 
+- **2026-09-20:** The [preprint](https://arxiv.org/abs/2609.23606) is available on arXiv.
+
 Code will be released.
 
 For questions, contact [wang.jq@cityu.edu.hk](mailto:wang.jq@cityu.edu.hk).
+
+## Citation
+
+```bibtex
+@misc{wang2026texf,
+  title         = {Beyond {UV} Mapping: Mesh Texture Compression via Surface-Aligned Texture Fields},
+  author        = {Jianqiang Wang and Junhui Hou and Siyu Ren and Weiyao Lin and Wenping Wang},
+  year          = {2026},
+  eprint        = {2609.23606},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2609.23606}
+}
+```
