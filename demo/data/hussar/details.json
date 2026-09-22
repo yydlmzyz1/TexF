@@ -1,0 +1,62 @@
+[
+  {
+    "id": "armor",
+    "label": "Armor",
+    "frame": 0,
+    "box": [
+      720,
+      660,
+      1360,
+      1300
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/armor/gt.webp",
+        "bytes": 352508
+      },
+      "source_hevc": {
+        "path": "details/armor/source_hevc.webp",
+        "bytes": 303710
+      },
+      "reparam_hevc": {
+        "path": "details/armor/reparam_hevc.webp",
+        "bytes": 320562
+      },
+      "texf": {
+        "path": "details/armor/texf.webp",
+        "bytes": 327498
+      }
+    }
+  },
+  {
+    "id": "saddle",
+    "label": "Saddle",
+    "frame": 0,
+    "box": [
+      660,
+      940,
+      1300,
+      1580
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/saddle/gt.webp",
+        "bytes": 342572
+      },
+      "source_hevc": {
+        "path": "details/saddle/source_hevc.webp",
+        "bytes": 295932
+      },
+      "reparam_hevc": {
+        "path": "details/saddle/reparam_hevc.webp",
+        "bytes": 312610
+      },
+      "texf": {
+        "path": "details/saddle/texf.webp",
+        "bytes": 320412
+      }
+    }
+  }
+]

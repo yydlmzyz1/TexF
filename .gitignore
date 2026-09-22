@@ -1,0 +1,6 @@
+# Retain source renders locally; publish only 1024 rotations and HD crops.
+/demo/data/**/2048/
+/demo/data/memory-basket/
+/assets/memory-basket-preview.*
+/_site/
+/.jekyll-cache/

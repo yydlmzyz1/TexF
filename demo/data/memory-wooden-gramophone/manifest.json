@@ -1,0 +1,1679 @@
+{
+  "asset": "Wooden Gramophone",
+  "frame_count": 96,
+  "resolutions": [
+    1024
+  ],
+  "compression": "memory",
+  "default_resolution": 1024,
+  "frame_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "methods": {
+    "gt": {
+      "label": "GT",
+      "memory_MiB": null
+    },
+    "source_astc": {
+      "label": "UV-Source/ASTC",
+      "memory_MiB": 5.283342361450195,
+      "quality": {
+        "psnr": 43.702987,
+        "ssim": 0.994749,
+        "lpips": 0.004288
+      }
+    },
+    "source_ntc": {
+      "label": "UV-Source/NTC",
+      "memory_MiB": 4.61920166015625,
+      "quality": {
+        "psnr": 42.731707,
+        "ssim": 0.993551,
+        "lpips": 0.006663
+      }
+    },
+    "texf": {
+      "label": "TexF/3DNTC",
+      "memory_MiB": 4.5237836837768555,
+      "quality": {
+        "psnr": 52.560312,
+        "ssim": 0.99897,
+        "lpips": 0.000323
+      }
+    }
+  },
+  "quality_protocol": "Paper evaluation protocol (masked YUV PSNR, SSIM, LPIPS); not the displayed turntable view.",
+  "frames": [
+    {
+      "path": "1024/gt/000.webp",
+      "bytes": 249272
+    },
+    {
+      "path": "1024/source_astc/000.webp",
+      "bytes": 239832
+    },
+    {
+      "path": "1024/source_ntc/000.webp",
+      "bytes": 236080
+    },
+    {
+      "path": "1024/texf/000.webp",
+      "bytes": 247800
+    },
+    {
+      "path": "1024/gt/001.webp",
+      "bytes": 252960
+    },
+    {
+      "path": "1024/source_astc/001.webp",
+      "bytes": 243534
+    },
+    {
+      "path": "1024/source_ntc/001.webp",
+      "bytes": 239756
+    },
+    {
+      "path": "1024/texf/001.webp",
+      "bytes": 251912
+    },
+    {
+      "path": "1024/gt/002.webp",
+      "bytes": 257800
+    },
+    {
+      "path": "1024/source_astc/002.webp",
+      "bytes": 247036
+    },
+    {
+      "path": "1024/source_ntc/002.webp",
+      "bytes": 243424
+    },
+    {
+      "path": "1024/texf/002.webp",
+      "bytes": 256084
+    },
+    {
+      "path": "1024/gt/003.webp",
+      "bytes": 259792
+    },
+    {
+      "path": "1024/source_astc/003.webp",
+      "bytes": 249738
+    },
+    {
+      "path": "1024/source_ntc/003.webp",
+      "bytes": 246272
+    },
+    {
+      "path": "1024/texf/003.webp",
+      "bytes": 258920
+    },
+    {
+      "path": "1024/gt/004.webp",
+      "bytes": 260648
+    },
+    {
+      "path": "1024/source_astc/004.webp",
+      "bytes": 250650
+    },
+    {
+      "path": "1024/source_ntc/004.webp",
+      "bytes": 246830
+    },
+    {
+      "path": "1024/texf/004.webp",
+      "bytes": 259690
+    },
+    {
+      "path": "1024/gt/005.webp",
+      "bytes": 257668
+    },
+    {
+      "path": "1024/source_astc/005.webp",
+      "bytes": 247546
+    },
+    {
+      "path": "1024/source_ntc/005.webp",
+      "bytes": 244384
+    },
+    {
+      "path": "1024/texf/005.webp",
+      "bytes": 256716
+    },
+    {
+      "path": "1024/gt/006.webp",
+      "bytes": 254790
+    },
+    {
+      "path": "1024/source_astc/006.webp",
+      "bytes": 244338
+    },
+    {
+      "path": "1024/source_ntc/006.webp",
+      "bytes": 241152
+    },
+    {
+      "path": "1024/texf/006.webp",
+      "bytes": 253722
+    },
+    {
+      "path": "1024/gt/007.webp",
+      "bytes": 249390
+    },
+    {
+      "path": "1024/source_astc/007.webp",
+      "bytes": 239204
+    },
+    {
+      "path": "1024/source_ntc/007.webp",
+      "bytes": 236856
+    },
+    {
+      "path": "1024/texf/007.webp",
+      "bytes": 248970
+    },
+    {
+      "path": "1024/gt/008.webp",
+      "bytes": 243934
+    },
+    {
+      "path": "1024/source_astc/008.webp",
+      "bytes": 234000
+    },
+    {
+      "path": "1024/source_ntc/008.webp",
+      "bytes": 230294
+    },
+    {
+      "path": "1024/texf/008.webp",
+      "bytes": 243334
+    },
+    {
+      "path": "1024/gt/009.webp",
+      "bytes": 237486
+    },
+    {
+      "path": "1024/source_astc/009.webp",
+      "bytes": 227540
+    },
+    {
+      "path": "1024/source_ntc/009.webp",
+      "bytes": 224758
+    },
+    {
+      "path": "1024/texf/009.webp",
+      "bytes": 237000
+    },
+    {
+      "path": "1024/gt/010.webp",
+      "bytes": 231270
+    },
+    {
+      "path": "1024/source_astc/010.webp",
+      "bytes": 220728
+    },
+    {
+      "path": "1024/source_ntc/010.webp",
+      "bytes": 218058
+    },
+    {
+      "path": "1024/texf/010.webp",
+      "bytes": 230140
+    },
+    {
+      "path": "1024/gt/011.webp",
+      "bytes": 224402
+    },
+    {
+      "path": "1024/source_astc/011.webp",
+      "bytes": 214488
+    },
+    {
+      "path": "1024/source_ntc/011.webp",
+      "bytes": 212630
+    },
+    {
+      "path": "1024/texf/011.webp",
+      "bytes": 224160
+    },
+    {
+      "path": "1024/gt/012.webp",
+      "bytes": 219460
+    },
+    {
+      "path": "1024/source_astc/012.webp",
+      "bytes": 209868
+    },
+    {
+      "path": "1024/source_ntc/012.webp",
+      "bytes": 207888
+    },
+    {
+      "path": "1024/texf/012.webp",
+      "bytes": 219338
+    },
+    {
+      "path": "1024/gt/013.webp",
+      "bytes": 215488
+    },
+    {
+      "path": "1024/source_astc/013.webp",
+      "bytes": 206064
+    },
+    {
+      "path": "1024/source_ntc/013.webp",
+      "bytes": 204138
+    },
+    {
+      "path": "1024/texf/013.webp",
+      "bytes": 215502
+    },
+    {
+      "path": "1024/gt/014.webp",
+      "bytes": 212334
+    },
+    {
+      "path": "1024/source_astc/014.webp",
+      "bytes": 202614
+    },
+    {
+      "path": "1024/source_ntc/014.webp",
+      "bytes": 201062
+    },
+    {
+      "path": "1024/texf/014.webp",
+      "bytes": 212498
+    },
+    {
+      "path": "1024/gt/015.webp",
+      "bytes": 211556
+    },
+    {
+      "path": "1024/source_astc/015.webp",
+      "bytes": 201342
+    },
+    {
+      "path": "1024/source_ntc/015.webp",
+      "bytes": 200086
+    },
+    {
+      "path": "1024/texf/015.webp",
+      "bytes": 211604
+    },
+    {
+      "path": "1024/gt/016.webp",
+      "bytes": 210922
+    },
+    {
+      "path": "1024/source_astc/016.webp",
+      "bytes": 200958
+    },
+    {
+      "path": "1024/source_ntc/016.webp",
+      "bytes": 199646
+    },
+    {
+      "path": "1024/texf/016.webp",
+      "bytes": 210958
+    },
+    {
+      "path": "1024/gt/017.webp",
+      "bytes": 210934
+    },
+    {
+      "path": "1024/source_astc/017.webp",
+      "bytes": 200608
+    },
+    {
+      "path": "1024/source_ntc/017.webp",
+      "bytes": 199654
+    },
+    {
+      "path": "1024/texf/017.webp",
+      "bytes": 211290
+    },
+    {
+      "path": "1024/gt/018.webp",
+      "bytes": 210760
+    },
+    {
+      "path": "1024/source_astc/018.webp",
+      "bytes": 200352
+    },
+    {
+      "path": "1024/source_ntc/018.webp",
+      "bytes": 199208
+    },
+    {
+      "path": "1024/texf/018.webp",
+      "bytes": 210698
+    },
+    {
+      "path": "1024/gt/019.webp",
+      "bytes": 213528
+    },
+    {
+      "path": "1024/source_astc/019.webp",
+      "bytes": 203878
+    },
+    {
+      "path": "1024/source_ntc/019.webp",
+      "bytes": 202466
+    },
+    {
+      "path": "1024/texf/019.webp",
+      "bytes": 213348
+    },
+    {
+      "path": "1024/gt/020.webp",
+      "bytes": 217744
+    },
+    {
+      "path": "1024/source_astc/020.webp",
+      "bytes": 208010
+    },
+    {
+      "path": "1024/source_ntc/020.webp",
+      "bytes": 206428
+    },
+    {
+      "path": "1024/texf/020.webp",
+      "bytes": 217632
+    },
+    {
+      "path": "1024/gt/021.webp",
+      "bytes": 223056
+    },
+    {
+      "path": "1024/source_astc/021.webp",
+      "bytes": 213512
+    },
+    {
+      "path": "1024/source_ntc/021.webp",
+      "bytes": 211956
+    },
+    {
+      "path": "1024/texf/021.webp",
+      "bytes": 222834
+    },
+    {
+      "path": "1024/gt/022.webp",
+      "bytes": 232084
+    },
+    {
+      "path": "1024/source_astc/022.webp",
+      "bytes": 222778
+    },
+    {
+      "path": "1024/source_ntc/022.webp",
+      "bytes": 220088
+    },
+    {
+      "path": "1024/texf/022.webp",
+      "bytes": 231652
+    },
+    {
+      "path": "1024/gt/023.webp",
+      "bytes": 241600
+    },
+    {
+      "path": "1024/source_astc/023.webp",
+      "bytes": 232062
+    },
+    {
+      "path": "1024/source_ntc/023.webp",
+      "bytes": 229540
+    },
+    {
+      "path": "1024/texf/023.webp",
+      "bytes": 241234
+    },
+    {
+      "path": "1024/gt/024.webp",
+      "bytes": 250912
+    },
+    {
+      "path": "1024/source_astc/024.webp",
+      "bytes": 241428
+    },
+    {
+      "path": "1024/source_ntc/024.webp",
+      "bytes": 237728
+    },
+    {
+      "path": "1024/texf/024.webp",
+      "bytes": 250020
+    },
+    {
+      "path": "1024/gt/025.webp",
+      "bytes": 258878
+    },
+    {
+      "path": "1024/source_astc/025.webp",
+      "bytes": 249708
+    },
+    {
+      "path": "1024/source_ntc/025.webp",
+      "bytes": 245636
+    },
+    {
+      "path": "1024/texf/025.webp",
+      "bytes": 257784
+    },
+    {
+      "path": "1024/gt/026.webp",
+      "bytes": 264718
+    },
+    {
+      "path": "1024/source_astc/026.webp",
+      "bytes": 255496
+    },
+    {
+      "path": "1024/source_ntc/026.webp",
+      "bytes": 251070
+    },
+    {
+      "path": "1024/texf/026.webp",
+      "bytes": 263758
+    },
+    {
+      "path": "1024/gt/027.webp",
+      "bytes": 269540
+    },
+    {
+      "path": "1024/source_astc/027.webp",
+      "bytes": 259840
+    },
+    {
+      "path": "1024/source_ntc/027.webp",
+      "bytes": 255250
+    },
+    {
+      "path": "1024/texf/027.webp",
+      "bytes": 268566
+    },
+    {
+      "path": "1024/gt/028.webp",
+      "bytes": 273914
+    },
+    {
+      "path": "1024/source_astc/028.webp",
+      "bytes": 264440
+    },
+    {
+      "path": "1024/source_ntc/028.webp",
+      "bytes": 259280
+    },
+    {
+      "path": "1024/texf/028.webp",
+      "bytes": 273120
+    },
+    {
+      "path": "1024/gt/029.webp",
+      "bytes": 272764
+    },
+    {
+      "path": "1024/source_astc/029.webp",
+      "bytes": 263376
+    },
+    {
+      "path": "1024/source_ntc/029.webp",
+      "bytes": 258190
+    },
+    {
+      "path": "1024/texf/029.webp",
+      "bytes": 271338
+    },
+    {
+      "path": "1024/gt/030.webp",
+      "bytes": 268734
+    },
+    {
+      "path": "1024/source_astc/030.webp",
+      "bytes": 258786
+    },
+    {
+      "path": "1024/source_ntc/030.webp",
+      "bytes": 254406
+    },
+    {
+      "path": "1024/texf/030.webp",
+      "bytes": 267694
+    },
+    {
+      "path": "1024/gt/031.webp",
+      "bytes": 264304
+    },
+    {
+      "path": "1024/source_astc/031.webp",
+      "bytes": 254594
+    },
+    {
+      "path": "1024/source_ntc/031.webp",
+      "bytes": 249748
+    },
+    {
+      "path": "1024/texf/031.webp",
+      "bytes": 262810
+    },
+    {
+      "path": "1024/gt/032.webp",
+      "bytes": 258910
+    },
+    {
+      "path": "1024/source_astc/032.webp",
+      "bytes": 249406
+    },
+    {
+      "path": "1024/source_ntc/032.webp",
+      "bytes": 243692
+    },
+    {
+      "path": "1024/texf/032.webp",
+      "bytes": 257400
+    },
+    {
+      "path": "1024/gt/033.webp",
+      "bytes": 254072
+    },
+    {
+      "path": "1024/source_astc/033.webp",
+      "bytes": 244950
+    },
+    {
+      "path": "1024/source_ntc/033.webp",
+      "bytes": 239596
+    },
+    {
+      "path": "1024/texf/033.webp",
+      "bytes": 253016
+    },
+    {
+      "path": "1024/gt/034.webp",
+      "bytes": 251292
+    },
+    {
+      "path": "1024/source_astc/034.webp",
+      "bytes": 242058
+    },
+    {
+      "path": "1024/source_ntc/034.webp",
+      "bytes": 236964
+    },
+    {
+      "path": "1024/texf/034.webp",
+      "bytes": 249882
+    },
+    {
+      "path": "1024/gt/035.webp",
+      "bytes": 248664
+    },
+    {
+      "path": "1024/source_astc/035.webp",
+      "bytes": 239946
+    },
+    {
+      "path": "1024/source_ntc/035.webp",
+      "bytes": 234342
+    },
+    {
+      "path": "1024/texf/035.webp",
+      "bytes": 247578
+    },
+    {
+      "path": "1024/gt/036.webp",
+      "bytes": 247512
+    },
+    {
+      "path": "1024/source_astc/036.webp",
+      "bytes": 239134
+    },
+    {
+      "path": "1024/source_ntc/036.webp",
+      "bytes": 233038
+    },
+    {
+      "path": "1024/texf/036.webp",
+      "bytes": 246290
+    },
+    {
+      "path": "1024/gt/037.webp",
+      "bytes": 249960
+    },
+    {
+      "path": "1024/source_astc/037.webp",
+      "bytes": 241152
+    },
+    {
+      "path": "1024/source_ntc/037.webp",
+      "bytes": 235402
+    },
+    {
+      "path": "1024/texf/037.webp",
+      "bytes": 248348
+    },
+    {
+      "path": "1024/gt/038.webp",
+      "bytes": 250228
+    },
+    {
+      "path": "1024/source_astc/038.webp",
+      "bytes": 242140
+    },
+    {
+      "path": "1024/source_ntc/038.webp",
+      "bytes": 236420
+    },
+    {
+      "path": "1024/texf/038.webp",
+      "bytes": 249266
+    },
+    {
+      "path": "1024/gt/039.webp",
+      "bytes": 252160
+    },
+    {
+      "path": "1024/source_astc/039.webp",
+      "bytes": 243594
+    },
+    {
+      "path": "1024/source_ntc/039.webp",
+      "bytes": 238084
+    },
+    {
+      "path": "1024/texf/039.webp",
+      "bytes": 251036
+    },
+    {
+      "path": "1024/gt/040.webp",
+      "bytes": 253876
+    },
+    {
+      "path": "1024/source_astc/040.webp",
+      "bytes": 245418
+    },
+    {
+      "path": "1024/source_ntc/040.webp",
+      "bytes": 239450
+    },
+    {
+      "path": "1024/texf/040.webp",
+      "bytes": 252672
+    },
+    {
+      "path": "1024/gt/041.webp",
+      "bytes": 254934
+    },
+    {
+      "path": "1024/source_astc/041.webp",
+      "bytes": 246090
+    },
+    {
+      "path": "1024/source_ntc/041.webp",
+      "bytes": 240248
+    },
+    {
+      "path": "1024/texf/041.webp",
+      "bytes": 253314
+    },
+    {
+      "path": "1024/gt/042.webp",
+      "bytes": 254042
+    },
+    {
+      "path": "1024/source_astc/042.webp",
+      "bytes": 245344
+    },
+    {
+      "path": "1024/source_ntc/042.webp",
+      "bytes": 239714
+    },
+    {
+      "path": "1024/texf/042.webp",
+      "bytes": 253160
+    },
+    {
+      "path": "1024/gt/043.webp",
+      "bytes": 253332
+    },
+    {
+      "path": "1024/source_astc/043.webp",
+      "bytes": 244558
+    },
+    {
+      "path": "1024/source_ntc/043.webp",
+      "bytes": 239276
+    },
+    {
+      "path": "1024/texf/043.webp",
+      "bytes": 251936
+    },
+    {
+      "path": "1024/gt/044.webp",
+      "bytes": 253840
+    },
+    {
+      "path": "1024/source_astc/044.webp",
+      "bytes": 244838
+    },
+    {
+      "path": "1024/source_ntc/044.webp",
+      "bytes": 239232
+    },
+    {
+      "path": "1024/texf/044.webp",
+      "bytes": 252738
+    },
+    {
+      "path": "1024/gt/045.webp",
+      "bytes": 254144
+    },
+    {
+      "path": "1024/source_astc/045.webp",
+      "bytes": 245260
+    },
+    {
+      "path": "1024/source_ntc/045.webp",
+      "bytes": 239778
+    },
+    {
+      "path": "1024/texf/045.webp",
+      "bytes": 253070
+    },
+    {
+      "path": "1024/gt/046.webp",
+      "bytes": 254142
+    },
+    {
+      "path": "1024/source_astc/046.webp",
+      "bytes": 244576
+    },
+    {
+      "path": "1024/source_ntc/046.webp",
+      "bytes": 239372
+    },
+    {
+      "path": "1024/texf/046.webp",
+      "bytes": 253028
+    },
+    {
+      "path": "1024/gt/047.webp",
+      "bytes": 252986
+    },
+    {
+      "path": "1024/source_astc/047.webp",
+      "bytes": 244752
+    },
+    {
+      "path": "1024/source_ntc/047.webp",
+      "bytes": 238950
+    },
+    {
+      "path": "1024/texf/047.webp",
+      "bytes": 252740
+    },
+    {
+      "path": "1024/gt/048.webp",
+      "bytes": 253394
+    },
+    {
+      "path": "1024/source_astc/048.webp",
+      "bytes": 244254
+    },
+    {
+      "path": "1024/source_ntc/048.webp",
+      "bytes": 239270
+    },
+    {
+      "path": "1024/texf/048.webp",
+      "bytes": 252992
+    },
+    {
+      "path": "1024/gt/049.webp",
+      "bytes": 253108
+    },
+    {
+      "path": "1024/source_astc/049.webp",
+      "bytes": 243784
+    },
+    {
+      "path": "1024/source_ntc/049.webp",
+      "bytes": 238310
+    },
+    {
+      "path": "1024/texf/049.webp",
+      "bytes": 252360
+    },
+    {
+      "path": "1024/gt/050.webp",
+      "bytes": 253402
+    },
+    {
+      "path": "1024/source_astc/050.webp",
+      "bytes": 244542
+    },
+    {
+      "path": "1024/source_ntc/050.webp",
+      "bytes": 238928
+    },
+    {
+      "path": "1024/texf/050.webp",
+      "bytes": 252784
+    },
+    {
+      "path": "1024/gt/051.webp",
+      "bytes": 251098
+    },
+    {
+      "path": "1024/source_astc/051.webp",
+      "bytes": 242296
+    },
+    {
+      "path": "1024/source_ntc/051.webp",
+      "bytes": 237210
+    },
+    {
+      "path": "1024/texf/051.webp",
+      "bytes": 250684
+    },
+    {
+      "path": "1024/gt/052.webp",
+      "bytes": 247556
+    },
+    {
+      "path": "1024/source_astc/052.webp",
+      "bytes": 237942
+    },
+    {
+      "path": "1024/source_ntc/052.webp",
+      "bytes": 233216
+    },
+    {
+      "path": "1024/texf/052.webp",
+      "bytes": 246774
+    },
+    {
+      "path": "1024/gt/053.webp",
+      "bytes": 241068
+    },
+    {
+      "path": "1024/source_astc/053.webp",
+      "bytes": 232440
+    },
+    {
+      "path": "1024/source_ntc/053.webp",
+      "bytes": 227840
+    },
+    {
+      "path": "1024/texf/053.webp",
+      "bytes": 240656
+    },
+    {
+      "path": "1024/gt/054.webp",
+      "bytes": 235380
+    },
+    {
+      "path": "1024/source_astc/054.webp",
+      "bytes": 226528
+    },
+    {
+      "path": "1024/source_ntc/054.webp",
+      "bytes": 222346
+    },
+    {
+      "path": "1024/texf/054.webp",
+      "bytes": 235200
+    },
+    {
+      "path": "1024/gt/055.webp",
+      "bytes": 229926
+    },
+    {
+      "path": "1024/source_astc/055.webp",
+      "bytes": 221272
+    },
+    {
+      "path": "1024/source_ntc/055.webp",
+      "bytes": 216958
+    },
+    {
+      "path": "1024/texf/055.webp",
+      "bytes": 229188
+    },
+    {
+      "path": "1024/gt/056.webp",
+      "bytes": 222532
+    },
+    {
+      "path": "1024/source_astc/056.webp",
+      "bytes": 214744
+    },
+    {
+      "path": "1024/source_ntc/056.webp",
+      "bytes": 210170
+    },
+    {
+      "path": "1024/texf/056.webp",
+      "bytes": 222264
+    },
+    {
+      "path": "1024/gt/057.webp",
+      "bytes": 215572
+    },
+    {
+      "path": "1024/source_astc/057.webp",
+      "bytes": 206980
+    },
+    {
+      "path": "1024/source_ntc/057.webp",
+      "bytes": 203250
+    },
+    {
+      "path": "1024/texf/057.webp",
+      "bytes": 215066
+    },
+    {
+      "path": "1024/gt/058.webp",
+      "bytes": 207278
+    },
+    {
+      "path": "1024/source_astc/058.webp",
+      "bytes": 198814
+    },
+    {
+      "path": "1024/source_ntc/058.webp",
+      "bytes": 195494
+    },
+    {
+      "path": "1024/texf/058.webp",
+      "bytes": 206814
+    },
+    {
+      "path": "1024/gt/059.webp",
+      "bytes": 198586
+    },
+    {
+      "path": "1024/source_astc/059.webp",
+      "bytes": 191348
+    },
+    {
+      "path": "1024/source_ntc/059.webp",
+      "bytes": 188126
+    },
+    {
+      "path": "1024/texf/059.webp",
+      "bytes": 198168
+    },
+    {
+      "path": "1024/gt/060.webp",
+      "bytes": 192928
+    },
+    {
+      "path": "1024/source_astc/060.webp",
+      "bytes": 184654
+    },
+    {
+      "path": "1024/source_ntc/060.webp",
+      "bytes": 181872
+    },
+    {
+      "path": "1024/texf/060.webp",
+      "bytes": 192316
+    },
+    {
+      "path": "1024/gt/061.webp",
+      "bytes": 186010
+    },
+    {
+      "path": "1024/source_astc/061.webp",
+      "bytes": 177336
+    },
+    {
+      "path": "1024/source_ntc/061.webp",
+      "bytes": 175392
+    },
+    {
+      "path": "1024/texf/061.webp",
+      "bytes": 185436
+    },
+    {
+      "path": "1024/gt/062.webp",
+      "bytes": 180540
+    },
+    {
+      "path": "1024/source_astc/062.webp",
+      "bytes": 172622
+    },
+    {
+      "path": "1024/source_ntc/062.webp",
+      "bytes": 170200
+    },
+    {
+      "path": "1024/texf/062.webp",
+      "bytes": 180076
+    },
+    {
+      "path": "1024/gt/063.webp",
+      "bytes": 175630
+    },
+    {
+      "path": "1024/source_astc/063.webp",
+      "bytes": 167530
+    },
+    {
+      "path": "1024/source_ntc/063.webp",
+      "bytes": 165174
+    },
+    {
+      "path": "1024/texf/063.webp",
+      "bytes": 174830
+    },
+    {
+      "path": "1024/gt/064.webp",
+      "bytes": 175032
+    },
+    {
+      "path": "1024/source_astc/064.webp",
+      "bytes": 167068
+    },
+    {
+      "path": "1024/source_ntc/064.webp",
+      "bytes": 164388
+    },
+    {
+      "path": "1024/texf/064.webp",
+      "bytes": 174126
+    },
+    {
+      "path": "1024/gt/065.webp",
+      "bytes": 175606
+    },
+    {
+      "path": "1024/source_astc/065.webp",
+      "bytes": 167086
+    },
+    {
+      "path": "1024/source_ntc/065.webp",
+      "bytes": 165418
+    },
+    {
+      "path": "1024/texf/065.webp",
+      "bytes": 175058
+    },
+    {
+      "path": "1024/gt/066.webp",
+      "bytes": 181616
+    },
+    {
+      "path": "1024/source_astc/066.webp",
+      "bytes": 173176
+    },
+    {
+      "path": "1024/source_ntc/066.webp",
+      "bytes": 170318
+    },
+    {
+      "path": "1024/texf/066.webp",
+      "bytes": 180686
+    },
+    {
+      "path": "1024/gt/067.webp",
+      "bytes": 187694
+    },
+    {
+      "path": "1024/source_astc/067.webp",
+      "bytes": 178592
+    },
+    {
+      "path": "1024/source_ntc/067.webp",
+      "bytes": 176794
+    },
+    {
+      "path": "1024/texf/067.webp",
+      "bytes": 187092
+    },
+    {
+      "path": "1024/gt/068.webp",
+      "bytes": 195252
+    },
+    {
+      "path": "1024/source_astc/068.webp",
+      "bytes": 185984
+    },
+    {
+      "path": "1024/source_ntc/068.webp",
+      "bytes": 183630
+    },
+    {
+      "path": "1024/texf/068.webp",
+      "bytes": 194874
+    },
+    {
+      "path": "1024/gt/069.webp",
+      "bytes": 202068
+    },
+    {
+      "path": "1024/source_astc/069.webp",
+      "bytes": 192750
+    },
+    {
+      "path": "1024/source_ntc/069.webp",
+      "bytes": 190012
+    },
+    {
+      "path": "1024/texf/069.webp",
+      "bytes": 201396
+    },
+    {
+      "path": "1024/gt/070.webp",
+      "bytes": 209936
+    },
+    {
+      "path": "1024/source_astc/070.webp",
+      "bytes": 200586
+    },
+    {
+      "path": "1024/source_ntc/070.webp",
+      "bytes": 197984
+    },
+    {
+      "path": "1024/texf/070.webp",
+      "bytes": 209364
+    },
+    {
+      "path": "1024/gt/071.webp",
+      "bytes": 216854
+    },
+    {
+      "path": "1024/source_astc/071.webp",
+      "bytes": 207212
+    },
+    {
+      "path": "1024/source_ntc/071.webp",
+      "bytes": 204868
+    },
+    {
+      "path": "1024/texf/071.webp",
+      "bytes": 216288
+    },
+    {
+      "path": "1024/gt/072.webp",
+      "bytes": 224754
+    },
+    {
+      "path": "1024/source_astc/072.webp",
+      "bytes": 214938
+    },
+    {
+      "path": "1024/source_ntc/072.webp",
+      "bytes": 212244
+    },
+    {
+      "path": "1024/texf/072.webp",
+      "bytes": 224202
+    },
+    {
+      "path": "1024/gt/073.webp",
+      "bytes": 229700
+    },
+    {
+      "path": "1024/source_astc/073.webp",
+      "bytes": 220094
+    },
+    {
+      "path": "1024/source_ntc/073.webp",
+      "bytes": 217394
+    },
+    {
+      "path": "1024/texf/073.webp",
+      "bytes": 229066
+    },
+    {
+      "path": "1024/gt/074.webp",
+      "bytes": 235198
+    },
+    {
+      "path": "1024/source_astc/074.webp",
+      "bytes": 225048
+    },
+    {
+      "path": "1024/source_ntc/074.webp",
+      "bytes": 222890
+    },
+    {
+      "path": "1024/texf/074.webp",
+      "bytes": 234932
+    },
+    {
+      "path": "1024/gt/075.webp",
+      "bytes": 240008
+    },
+    {
+      "path": "1024/source_astc/075.webp",
+      "bytes": 229590
+    },
+    {
+      "path": "1024/source_ntc/075.webp",
+      "bytes": 226926
+    },
+    {
+      "path": "1024/texf/075.webp",
+      "bytes": 239522
+    },
+    {
+      "path": "1024/gt/076.webp",
+      "bytes": 244270
+    },
+    {
+      "path": "1024/source_astc/076.webp",
+      "bytes": 234190
+    },
+    {
+      "path": "1024/source_ntc/076.webp",
+      "bytes": 231350
+    },
+    {
+      "path": "1024/texf/076.webp",
+      "bytes": 243620
+    },
+    {
+      "path": "1024/gt/077.webp",
+      "bytes": 250642
+    },
+    {
+      "path": "1024/source_astc/077.webp",
+      "bytes": 239992
+    },
+    {
+      "path": "1024/source_ntc/077.webp",
+      "bytes": 236644
+    },
+    {
+      "path": "1024/texf/077.webp",
+      "bytes": 249628
+    },
+    {
+      "path": "1024/gt/078.webp",
+      "bytes": 252360
+    },
+    {
+      "path": "1024/source_astc/078.webp",
+      "bytes": 241190
+    },
+    {
+      "path": "1024/source_ntc/078.webp",
+      "bytes": 238858
+    },
+    {
+      "path": "1024/texf/078.webp",
+      "bytes": 251522
+    },
+    {
+      "path": "1024/gt/079.webp",
+      "bytes": 251662
+    },
+    {
+      "path": "1024/source_astc/079.webp",
+      "bytes": 241054
+    },
+    {
+      "path": "1024/source_ntc/079.webp",
+      "bytes": 237948
+    },
+    {
+      "path": "1024/texf/079.webp",
+      "bytes": 250668
+    },
+    {
+      "path": "1024/gt/080.webp",
+      "bytes": 250990
+    },
+    {
+      "path": "1024/source_astc/080.webp",
+      "bytes": 240572
+    },
+    {
+      "path": "1024/source_ntc/080.webp",
+      "bytes": 237204
+    },
+    {
+      "path": "1024/texf/080.webp",
+      "bytes": 250042
+    },
+    {
+      "path": "1024/gt/081.webp",
+      "bytes": 249584
+    },
+    {
+      "path": "1024/source_astc/081.webp",
+      "bytes": 239616
+    },
+    {
+      "path": "1024/source_ntc/081.webp",
+      "bytes": 236228
+    },
+    {
+      "path": "1024/texf/081.webp",
+      "bytes": 248386
+    },
+    {
+      "path": "1024/gt/082.webp",
+      "bytes": 248564
+    },
+    {
+      "path": "1024/source_astc/082.webp",
+      "bytes": 238688
+    },
+    {
+      "path": "1024/source_ntc/082.webp",
+      "bytes": 234920
+    },
+    {
+      "path": "1024/texf/082.webp",
+      "bytes": 247556
+    },
+    {
+      "path": "1024/gt/083.webp",
+      "bytes": 247844
+    },
+    {
+      "path": "1024/source_astc/083.webp",
+      "bytes": 237936
+    },
+    {
+      "path": "1024/source_ntc/083.webp",
+      "bytes": 234488
+    },
+    {
+      "path": "1024/texf/083.webp",
+      "bytes": 246642
+    },
+    {
+      "path": "1024/gt/084.webp",
+      "bytes": 246534
+    },
+    {
+      "path": "1024/source_astc/084.webp",
+      "bytes": 236302
+    },
+    {
+      "path": "1024/source_ntc/084.webp",
+      "bytes": 232964
+    },
+    {
+      "path": "1024/texf/084.webp",
+      "bytes": 245568
+    },
+    {
+      "path": "1024/gt/085.webp",
+      "bytes": 244230
+    },
+    {
+      "path": "1024/source_astc/085.webp",
+      "bytes": 234894
+    },
+    {
+      "path": "1024/source_ntc/085.webp",
+      "bytes": 231172
+    },
+    {
+      "path": "1024/texf/085.webp",
+      "bytes": 242938
+    },
+    {
+      "path": "1024/gt/086.webp",
+      "bytes": 241900
+    },
+    {
+      "path": "1024/source_astc/086.webp",
+      "bytes": 232236
+    },
+    {
+      "path": "1024/source_ntc/086.webp",
+      "bytes": 228692
+    },
+    {
+      "path": "1024/texf/086.webp",
+      "bytes": 240342
+    },
+    {
+      "path": "1024/gt/087.webp",
+      "bytes": 238360
+    },
+    {
+      "path": "1024/source_astc/087.webp",
+      "bytes": 229142
+    },
+    {
+      "path": "1024/source_ntc/087.webp",
+      "bytes": 225862
+    },
+    {
+      "path": "1024/texf/087.webp",
+      "bytes": 237290
+    },
+    {
+      "path": "1024/gt/088.webp",
+      "bytes": 235464
+    },
+    {
+      "path": "1024/source_astc/088.webp",
+      "bytes": 226314
+    },
+    {
+      "path": "1024/source_ntc/088.webp",
+      "bytes": 222790
+    },
+    {
+      "path": "1024/texf/088.webp",
+      "bytes": 233998
+    },
+    {
+      "path": "1024/gt/089.webp",
+      "bytes": 232398
+    },
+    {
+      "path": "1024/source_astc/089.webp",
+      "bytes": 223274
+    },
+    {
+      "path": "1024/source_ntc/089.webp",
+      "bytes": 219574
+    },
+    {
+      "path": "1024/texf/089.webp",
+      "bytes": 231108
+    },
+    {
+      "path": "1024/gt/090.webp",
+      "bytes": 230838
+    },
+    {
+      "path": "1024/source_astc/090.webp",
+      "bytes": 222356
+    },
+    {
+      "path": "1024/source_ntc/090.webp",
+      "bytes": 218790
+    },
+    {
+      "path": "1024/texf/090.webp",
+      "bytes": 229774
+    },
+    {
+      "path": "1024/gt/091.webp",
+      "bytes": 231014
+    },
+    {
+      "path": "1024/source_astc/091.webp",
+      "bytes": 222446
+    },
+    {
+      "path": "1024/source_ntc/091.webp",
+      "bytes": 219018
+    },
+    {
+      "path": "1024/texf/091.webp",
+      "bytes": 229604
+    },
+    {
+      "path": "1024/gt/092.webp",
+      "bytes": 232602
+    },
+    {
+      "path": "1024/source_astc/092.webp",
+      "bytes": 223290
+    },
+    {
+      "path": "1024/source_ntc/092.webp",
+      "bytes": 220104
+    },
+    {
+      "path": "1024/texf/092.webp",
+      "bytes": 231430
+    },
+    {
+      "path": "1024/gt/093.webp",
+      "bytes": 236772
+    },
+    {
+      "path": "1024/source_astc/093.webp",
+      "bytes": 227758
+    },
+    {
+      "path": "1024/source_ntc/093.webp",
+      "bytes": 223830
+    },
+    {
+      "path": "1024/texf/093.webp",
+      "bytes": 235930
+    },
+    {
+      "path": "1024/gt/094.webp",
+      "bytes": 240750
+    },
+    {
+      "path": "1024/source_astc/094.webp",
+      "bytes": 231700
+    },
+    {
+      "path": "1024/source_ntc/094.webp",
+      "bytes": 228264
+    },
+    {
+      "path": "1024/texf/094.webp",
+      "bytes": 239732
+    },
+    {
+      "path": "1024/gt/095.webp",
+      "bytes": 245398
+    },
+    {
+      "path": "1024/source_astc/095.webp",
+      "bytes": 236192
+    },
+    {
+      "path": "1024/source_ntc/095.webp",
+      "bytes": 231776
+    },
+    {
+      "path": "1024/texf/095.webp",
+      "bytes": 244318
+    }
+  ]
+}

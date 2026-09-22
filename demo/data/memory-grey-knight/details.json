@@ -1,0 +1,62 @@
+[
+  {
+    "id": "armor",
+    "label": "Armor engraving",
+    "frame": 0,
+    "box": [
+      910,
+      490,
+      1550,
+      1130
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/armor/gt.webp",
+        "bytes": 284188
+      },
+      "source_astc": {
+        "path": "details/armor/source_astc.webp",
+        "bytes": 281832
+      },
+      "source_ntc": {
+        "path": "details/armor/source_ntc.webp",
+        "bytes": 277748
+      },
+      "texf": {
+        "path": "details/armor/texf.webp",
+        "bytes": 277106
+      }
+    }
+  },
+  {
+    "id": "sword",
+    "label": "Sword engraving",
+    "frame": 0,
+    "box": [
+      490,
+      860,
+      1002,
+      1372
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/sword/gt.webp",
+        "bytes": 100172
+      },
+      "source_astc": {
+        "path": "details/sword/source_astc.webp",
+        "bytes": 101684
+      },
+      "source_ntc": {
+        "path": "details/sword/source_ntc.webp",
+        "bytes": 100610
+      },
+      "texf": {
+        "path": "details/sword/texf.webp",
+        "bytes": 99522
+      }
+    }
+  }
+]

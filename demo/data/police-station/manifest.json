@@ -1,0 +1,1679 @@
+{
+  "asset": "Police Station",
+  "frame_count": 96,
+  "resolutions": [
+    1024
+  ],
+  "compression": "bitstream",
+  "default_resolution": 1024,
+  "frame_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "methods": {
+    "gt": {
+      "label": "GT",
+      "texture_KiB": null
+    },
+    "source_hevc": {
+      "label": "UV-Source/HEVC",
+      "texture_KiB": 1203.08056640625,
+      "quality": {
+        "psnr": 27.818015,
+        "ssim": 0.891861,
+        "lpips": 0.090578
+      }
+    },
+    "reparam_hevc": {
+      "label": "UV-Reparam/HEVC",
+      "texture_KiB": 572.40087890625,
+      "quality": {
+        "psnr": 28.606849,
+        "ssim": 0.897976,
+        "lpips": 0.101114
+      }
+    },
+    "texf": {
+      "label": "TexF/Unicorn",
+      "texture_KiB": 519.84375,
+      "quality": {
+        "psnr": 32.117331,
+        "ssim": 0.954822,
+        "lpips": 0.031887
+      }
+    }
+  },
+  "quality_protocol": "Paper evaluation protocol (masked YUV PSNR, SSIM, LPIPS); not the displayed turntable view.",
+  "frames": [
+    {
+      "path": "1024/gt/000.webp",
+      "bytes": 462946
+    },
+    {
+      "path": "1024/source_hevc/000.webp",
+      "bytes": 444480
+    },
+    {
+      "path": "1024/reparam_hevc/000.webp",
+      "bytes": 391796
+    },
+    {
+      "path": "1024/texf/000.webp",
+      "bytes": 445746
+    },
+    {
+      "path": "1024/gt/001.webp",
+      "bytes": 465090
+    },
+    {
+      "path": "1024/source_hevc/001.webp",
+      "bytes": 447346
+    },
+    {
+      "path": "1024/reparam_hevc/001.webp",
+      "bytes": 395704
+    },
+    {
+      "path": "1024/texf/001.webp",
+      "bytes": 448686
+    },
+    {
+      "path": "1024/gt/002.webp",
+      "bytes": 466256
+    },
+    {
+      "path": "1024/source_hevc/002.webp",
+      "bytes": 447646
+    },
+    {
+      "path": "1024/reparam_hevc/002.webp",
+      "bytes": 396946
+    },
+    {
+      "path": "1024/texf/002.webp",
+      "bytes": 449894
+    },
+    {
+      "path": "1024/gt/003.webp",
+      "bytes": 466084
+    },
+    {
+      "path": "1024/source_hevc/003.webp",
+      "bytes": 446744
+    },
+    {
+      "path": "1024/reparam_hevc/003.webp",
+      "bytes": 396862
+    },
+    {
+      "path": "1024/texf/003.webp",
+      "bytes": 449880
+    },
+    {
+      "path": "1024/gt/004.webp",
+      "bytes": 464580
+    },
+    {
+      "path": "1024/source_hevc/004.webp",
+      "bytes": 446010
+    },
+    {
+      "path": "1024/reparam_hevc/004.webp",
+      "bytes": 396156
+    },
+    {
+      "path": "1024/texf/004.webp",
+      "bytes": 449280
+    },
+    {
+      "path": "1024/gt/005.webp",
+      "bytes": 462196
+    },
+    {
+      "path": "1024/source_hevc/005.webp",
+      "bytes": 442774
+    },
+    {
+      "path": "1024/reparam_hevc/005.webp",
+      "bytes": 394490
+    },
+    {
+      "path": "1024/texf/005.webp",
+      "bytes": 446876
+    },
+    {
+      "path": "1024/gt/006.webp",
+      "bytes": 457852
+    },
+    {
+      "path": "1024/source_hevc/006.webp",
+      "bytes": 439392
+    },
+    {
+      "path": "1024/reparam_hevc/006.webp",
+      "bytes": 391174
+    },
+    {
+      "path": "1024/texf/006.webp",
+      "bytes": 442246
+    },
+    {
+      "path": "1024/gt/007.webp",
+      "bytes": 452358
+    },
+    {
+      "path": "1024/source_hevc/007.webp",
+      "bytes": 434468
+    },
+    {
+      "path": "1024/reparam_hevc/007.webp",
+      "bytes": 386218
+    },
+    {
+      "path": "1024/texf/007.webp",
+      "bytes": 436836
+    },
+    {
+      "path": "1024/gt/008.webp",
+      "bytes": 445910
+    },
+    {
+      "path": "1024/source_hevc/008.webp",
+      "bytes": 428282
+    },
+    {
+      "path": "1024/reparam_hevc/008.webp",
+      "bytes": 380350
+    },
+    {
+      "path": "1024/texf/008.webp",
+      "bytes": 429566
+    },
+    {
+      "path": "1024/gt/009.webp",
+      "bytes": 437572
+    },
+    {
+      "path": "1024/source_hevc/009.webp",
+      "bytes": 420320
+    },
+    {
+      "path": "1024/reparam_hevc/009.webp",
+      "bytes": 371660
+    },
+    {
+      "path": "1024/texf/009.webp",
+      "bytes": 420452
+    },
+    {
+      "path": "1024/gt/010.webp",
+      "bytes": 428676
+    },
+    {
+      "path": "1024/source_hevc/010.webp",
+      "bytes": 411418
+    },
+    {
+      "path": "1024/reparam_hevc/010.webp",
+      "bytes": 361986
+    },
+    {
+      "path": "1024/texf/010.webp",
+      "bytes": 410574
+    },
+    {
+      "path": "1024/gt/011.webp",
+      "bytes": 418958
+    },
+    {
+      "path": "1024/source_hevc/011.webp",
+      "bytes": 402298
+    },
+    {
+      "path": "1024/reparam_hevc/011.webp",
+      "bytes": 350700
+    },
+    {
+      "path": "1024/texf/011.webp",
+      "bytes": 400624
+    },
+    {
+      "path": "1024/gt/012.webp",
+      "bytes": 408718
+    },
+    {
+      "path": "1024/source_hevc/012.webp",
+      "bytes": 391454
+    },
+    {
+      "path": "1024/reparam_hevc/012.webp",
+      "bytes": 339424
+    },
+    {
+      "path": "1024/texf/012.webp",
+      "bytes": 389330
+    },
+    {
+      "path": "1024/gt/013.webp",
+      "bytes": 397796
+    },
+    {
+      "path": "1024/source_hevc/013.webp",
+      "bytes": 382006
+    },
+    {
+      "path": "1024/reparam_hevc/013.webp",
+      "bytes": 327958
+    },
+    {
+      "path": "1024/texf/013.webp",
+      "bytes": 378322
+    },
+    {
+      "path": "1024/gt/014.webp",
+      "bytes": 388712
+    },
+    {
+      "path": "1024/source_hevc/014.webp",
+      "bytes": 372792
+    },
+    {
+      "path": "1024/reparam_hevc/014.webp",
+      "bytes": 319126
+    },
+    {
+      "path": "1024/texf/014.webp",
+      "bytes": 369190
+    },
+    {
+      "path": "1024/gt/015.webp",
+      "bytes": 381344
+    },
+    {
+      "path": "1024/source_hevc/015.webp",
+      "bytes": 366204
+    },
+    {
+      "path": "1024/reparam_hevc/015.webp",
+      "bytes": 312700
+    },
+    {
+      "path": "1024/texf/015.webp",
+      "bytes": 362666
+    },
+    {
+      "path": "1024/gt/016.webp",
+      "bytes": 374342
+    },
+    {
+      "path": "1024/source_hevc/016.webp",
+      "bytes": 359786
+    },
+    {
+      "path": "1024/reparam_hevc/016.webp",
+      "bytes": 306786
+    },
+    {
+      "path": "1024/texf/016.webp",
+      "bytes": 356086
+    },
+    {
+      "path": "1024/gt/017.webp",
+      "bytes": 372424
+    },
+    {
+      "path": "1024/source_hevc/017.webp",
+      "bytes": 357324
+    },
+    {
+      "path": "1024/reparam_hevc/017.webp",
+      "bytes": 305026
+    },
+    {
+      "path": "1024/texf/017.webp",
+      "bytes": 354594
+    },
+    {
+      "path": "1024/gt/018.webp",
+      "bytes": 374560
+    },
+    {
+      "path": "1024/source_hevc/018.webp",
+      "bytes": 359572
+    },
+    {
+      "path": "1024/reparam_hevc/018.webp",
+      "bytes": 308108
+    },
+    {
+      "path": "1024/texf/018.webp",
+      "bytes": 356224
+    },
+    {
+      "path": "1024/gt/019.webp",
+      "bytes": 379556
+    },
+    {
+      "path": "1024/source_hevc/019.webp",
+      "bytes": 364264
+    },
+    {
+      "path": "1024/reparam_hevc/019.webp",
+      "bytes": 314164
+    },
+    {
+      "path": "1024/texf/019.webp",
+      "bytes": 361668
+    },
+    {
+      "path": "1024/gt/020.webp",
+      "bytes": 385170
+    },
+    {
+      "path": "1024/source_hevc/020.webp",
+      "bytes": 370356
+    },
+    {
+      "path": "1024/reparam_hevc/020.webp",
+      "bytes": 321140
+    },
+    {
+      "path": "1024/texf/020.webp",
+      "bytes": 368012
+    },
+    {
+      "path": "1024/gt/021.webp",
+      "bytes": 391170
+    },
+    {
+      "path": "1024/source_hevc/021.webp",
+      "bytes": 376206
+    },
+    {
+      "path": "1024/reparam_hevc/021.webp",
+      "bytes": 328068
+    },
+    {
+      "path": "1024/texf/021.webp",
+      "bytes": 374158
+    },
+    {
+      "path": "1024/gt/022.webp",
+      "bytes": 397652
+    },
+    {
+      "path": "1024/source_hevc/022.webp",
+      "bytes": 381808
+    },
+    {
+      "path": "1024/reparam_hevc/022.webp",
+      "bytes": 335472
+    },
+    {
+      "path": "1024/texf/022.webp",
+      "bytes": 381222
+    },
+    {
+      "path": "1024/gt/023.webp",
+      "bytes": 403132
+    },
+    {
+      "path": "1024/source_hevc/023.webp",
+      "bytes": 387312
+    },
+    {
+      "path": "1024/reparam_hevc/023.webp",
+      "bytes": 342182
+    },
+    {
+      "path": "1024/texf/023.webp",
+      "bytes": 387166
+    },
+    {
+      "path": "1024/gt/024.webp",
+      "bytes": 407066
+    },
+    {
+      "path": "1024/source_hevc/024.webp",
+      "bytes": 391404
+    },
+    {
+      "path": "1024/reparam_hevc/024.webp",
+      "bytes": 347512
+    },
+    {
+      "path": "1024/texf/024.webp",
+      "bytes": 392218
+    },
+    {
+      "path": "1024/gt/025.webp",
+      "bytes": 410772
+    },
+    {
+      "path": "1024/source_hevc/025.webp",
+      "bytes": 393890
+    },
+    {
+      "path": "1024/reparam_hevc/025.webp",
+      "bytes": 351504
+    },
+    {
+      "path": "1024/texf/025.webp",
+      "bytes": 396100
+    },
+    {
+      "path": "1024/gt/026.webp",
+      "bytes": 411884
+    },
+    {
+      "path": "1024/source_hevc/026.webp",
+      "bytes": 395584
+    },
+    {
+      "path": "1024/reparam_hevc/026.webp",
+      "bytes": 352970
+    },
+    {
+      "path": "1024/texf/026.webp",
+      "bytes": 398010
+    },
+    {
+      "path": "1024/gt/027.webp",
+      "bytes": 414130
+    },
+    {
+      "path": "1024/source_hevc/027.webp",
+      "bytes": 396966
+    },
+    {
+      "path": "1024/reparam_hevc/027.webp",
+      "bytes": 356330
+    },
+    {
+      "path": "1024/texf/027.webp",
+      "bytes": 400480
+    },
+    {
+      "path": "1024/gt/028.webp",
+      "bytes": 414720
+    },
+    {
+      "path": "1024/source_hevc/028.webp",
+      "bytes": 396856
+    },
+    {
+      "path": "1024/reparam_hevc/028.webp",
+      "bytes": 358284
+    },
+    {
+      "path": "1024/texf/028.webp",
+      "bytes": 400830
+    },
+    {
+      "path": "1024/gt/029.webp",
+      "bytes": 411938
+    },
+    {
+      "path": "1024/source_hevc/029.webp",
+      "bytes": 394960
+    },
+    {
+      "path": "1024/reparam_hevc/029.webp",
+      "bytes": 356554
+    },
+    {
+      "path": "1024/texf/029.webp",
+      "bytes": 398566
+    },
+    {
+      "path": "1024/gt/030.webp",
+      "bytes": 409532
+    },
+    {
+      "path": "1024/source_hevc/030.webp",
+      "bytes": 393090
+    },
+    {
+      "path": "1024/reparam_hevc/030.webp",
+      "bytes": 354822
+    },
+    {
+      "path": "1024/texf/030.webp",
+      "bytes": 396190
+    },
+    {
+      "path": "1024/gt/031.webp",
+      "bytes": 406366
+    },
+    {
+      "path": "1024/source_hevc/031.webp",
+      "bytes": 390190
+    },
+    {
+      "path": "1024/reparam_hevc/031.webp",
+      "bytes": 351542
+    },
+    {
+      "path": "1024/texf/031.webp",
+      "bytes": 392748
+    },
+    {
+      "path": "1024/gt/032.webp",
+      "bytes": 401514
+    },
+    {
+      "path": "1024/source_hevc/032.webp",
+      "bytes": 385376
+    },
+    {
+      "path": "1024/reparam_hevc/032.webp",
+      "bytes": 347154
+    },
+    {
+      "path": "1024/texf/032.webp",
+      "bytes": 388400
+    },
+    {
+      "path": "1024/gt/033.webp",
+      "bytes": 396344
+    },
+    {
+      "path": "1024/source_hevc/033.webp",
+      "bytes": 379524
+    },
+    {
+      "path": "1024/reparam_hevc/033.webp",
+      "bytes": 341426
+    },
+    {
+      "path": "1024/texf/033.webp",
+      "bytes": 382352
+    },
+    {
+      "path": "1024/gt/034.webp",
+      "bytes": 389814
+    },
+    {
+      "path": "1024/source_hevc/034.webp",
+      "bytes": 373360
+    },
+    {
+      "path": "1024/reparam_hevc/034.webp",
+      "bytes": 334552
+    },
+    {
+      "path": "1024/texf/034.webp",
+      "bytes": 375232
+    },
+    {
+      "path": "1024/gt/035.webp",
+      "bytes": 383118
+    },
+    {
+      "path": "1024/source_hevc/035.webp",
+      "bytes": 366884
+    },
+    {
+      "path": "1024/reparam_hevc/035.webp",
+      "bytes": 326062
+    },
+    {
+      "path": "1024/texf/035.webp",
+      "bytes": 367132
+    },
+    {
+      "path": "1024/gt/036.webp",
+      "bytes": 375376
+    },
+    {
+      "path": "1024/source_hevc/036.webp",
+      "bytes": 359226
+    },
+    {
+      "path": "1024/reparam_hevc/036.webp",
+      "bytes": 317298
+    },
+    {
+      "path": "1024/texf/036.webp",
+      "bytes": 359308
+    },
+    {
+      "path": "1024/gt/037.webp",
+      "bytes": 369884
+    },
+    {
+      "path": "1024/source_hevc/037.webp",
+      "bytes": 353808
+    },
+    {
+      "path": "1024/reparam_hevc/037.webp",
+      "bytes": 310052
+    },
+    {
+      "path": "1024/texf/037.webp",
+      "bytes": 353190
+    },
+    {
+      "path": "1024/gt/038.webp",
+      "bytes": 363942
+    },
+    {
+      "path": "1024/source_hevc/038.webp",
+      "bytes": 349976
+    },
+    {
+      "path": "1024/reparam_hevc/038.webp",
+      "bytes": 305634
+    },
+    {
+      "path": "1024/texf/038.webp",
+      "bytes": 348802
+    },
+    {
+      "path": "1024/gt/039.webp",
+      "bytes": 363038
+    },
+    {
+      "path": "1024/source_hevc/039.webp",
+      "bytes": 349424
+    },
+    {
+      "path": "1024/reparam_hevc/039.webp",
+      "bytes": 304950
+    },
+    {
+      "path": "1024/texf/039.webp",
+      "bytes": 348162
+    },
+    {
+      "path": "1024/gt/040.webp",
+      "bytes": 362298
+    },
+    {
+      "path": "1024/source_hevc/040.webp",
+      "bytes": 349122
+    },
+    {
+      "path": "1024/reparam_hevc/040.webp",
+      "bytes": 303542
+    },
+    {
+      "path": "1024/texf/040.webp",
+      "bytes": 347002
+    },
+    {
+      "path": "1024/gt/041.webp",
+      "bytes": 362602
+    },
+    {
+      "path": "1024/source_hevc/041.webp",
+      "bytes": 350586
+    },
+    {
+      "path": "1024/reparam_hevc/041.webp",
+      "bytes": 304192
+    },
+    {
+      "path": "1024/texf/041.webp",
+      "bytes": 347898
+    },
+    {
+      "path": "1024/gt/042.webp",
+      "bytes": 363064
+    },
+    {
+      "path": "1024/source_hevc/042.webp",
+      "bytes": 350834
+    },
+    {
+      "path": "1024/reparam_hevc/042.webp",
+      "bytes": 304378
+    },
+    {
+      "path": "1024/texf/042.webp",
+      "bytes": 348194
+    },
+    {
+      "path": "1024/gt/043.webp",
+      "bytes": 364136
+    },
+    {
+      "path": "1024/source_hevc/043.webp",
+      "bytes": 350176
+    },
+    {
+      "path": "1024/reparam_hevc/043.webp",
+      "bytes": 306232
+    },
+    {
+      "path": "1024/texf/043.webp",
+      "bytes": 348812
+    },
+    {
+      "path": "1024/gt/044.webp",
+      "bytes": 365178
+    },
+    {
+      "path": "1024/source_hevc/044.webp",
+      "bytes": 351904
+    },
+    {
+      "path": "1024/reparam_hevc/044.webp",
+      "bytes": 308464
+    },
+    {
+      "path": "1024/texf/044.webp",
+      "bytes": 350826
+    },
+    {
+      "path": "1024/gt/045.webp",
+      "bytes": 370756
+    },
+    {
+      "path": "1024/source_hevc/045.webp",
+      "bytes": 356964
+    },
+    {
+      "path": "1024/reparam_hevc/045.webp",
+      "bytes": 314752
+    },
+    {
+      "path": "1024/texf/045.webp",
+      "bytes": 356586
+    },
+    {
+      "path": "1024/gt/046.webp",
+      "bytes": 376170
+    },
+    {
+      "path": "1024/source_hevc/046.webp",
+      "bytes": 361174
+    },
+    {
+      "path": "1024/reparam_hevc/046.webp",
+      "bytes": 320136
+    },
+    {
+      "path": "1024/texf/046.webp",
+      "bytes": 361710
+    },
+    {
+      "path": "1024/gt/047.webp",
+      "bytes": 378726
+    },
+    {
+      "path": "1024/source_hevc/047.webp",
+      "bytes": 362434
+    },
+    {
+      "path": "1024/reparam_hevc/047.webp",
+      "bytes": 322838
+    },
+    {
+      "path": "1024/texf/047.webp",
+      "bytes": 364970
+    },
+    {
+      "path": "1024/gt/048.webp",
+      "bytes": 380880
+    },
+    {
+      "path": "1024/source_hevc/048.webp",
+      "bytes": 364324
+    },
+    {
+      "path": "1024/reparam_hevc/048.webp",
+      "bytes": 324714
+    },
+    {
+      "path": "1024/texf/048.webp",
+      "bytes": 367098
+    },
+    {
+      "path": "1024/gt/049.webp",
+      "bytes": 381112
+    },
+    {
+      "path": "1024/source_hevc/049.webp",
+      "bytes": 363282
+    },
+    {
+      "path": "1024/reparam_hevc/049.webp",
+      "bytes": 325206
+    },
+    {
+      "path": "1024/texf/049.webp",
+      "bytes": 367808
+    },
+    {
+      "path": "1024/gt/050.webp",
+      "bytes": 380250
+    },
+    {
+      "path": "1024/source_hevc/050.webp",
+      "bytes": 361456
+    },
+    {
+      "path": "1024/reparam_hevc/050.webp",
+      "bytes": 324758
+    },
+    {
+      "path": "1024/texf/050.webp",
+      "bytes": 366842
+    },
+    {
+      "path": "1024/gt/051.webp",
+      "bytes": 378542
+    },
+    {
+      "path": "1024/source_hevc/051.webp",
+      "bytes": 358620
+    },
+    {
+      "path": "1024/reparam_hevc/051.webp",
+      "bytes": 323492
+    },
+    {
+      "path": "1024/texf/051.webp",
+      "bytes": 365242
+    },
+    {
+      "path": "1024/gt/052.webp",
+      "bytes": 375118
+    },
+    {
+      "path": "1024/source_hevc/052.webp",
+      "bytes": 356082
+    },
+    {
+      "path": "1024/reparam_hevc/052.webp",
+      "bytes": 320084
+    },
+    {
+      "path": "1024/texf/052.webp",
+      "bytes": 361840
+    },
+    {
+      "path": "1024/gt/053.webp",
+      "bytes": 369036
+    },
+    {
+      "path": "1024/source_hevc/053.webp",
+      "bytes": 349364
+    },
+    {
+      "path": "1024/reparam_hevc/053.webp",
+      "bytes": 315160
+    },
+    {
+      "path": "1024/texf/053.webp",
+      "bytes": 355694
+    },
+    {
+      "path": "1024/gt/054.webp",
+      "bytes": 362054
+    },
+    {
+      "path": "1024/source_hevc/054.webp",
+      "bytes": 342744
+    },
+    {
+      "path": "1024/reparam_hevc/054.webp",
+      "bytes": 309646
+    },
+    {
+      "path": "1024/texf/054.webp",
+      "bytes": 348542
+    },
+    {
+      "path": "1024/gt/055.webp",
+      "bytes": 353452
+    },
+    {
+      "path": "1024/source_hevc/055.webp",
+      "bytes": 334444
+    },
+    {
+      "path": "1024/reparam_hevc/055.webp",
+      "bytes": 301700
+    },
+    {
+      "path": "1024/texf/055.webp",
+      "bytes": 340054
+    },
+    {
+      "path": "1024/gt/056.webp",
+      "bytes": 342376
+    },
+    {
+      "path": "1024/source_hevc/056.webp",
+      "bytes": 323762
+    },
+    {
+      "path": "1024/reparam_hevc/056.webp",
+      "bytes": 292460
+    },
+    {
+      "path": "1024/texf/056.webp",
+      "bytes": 329162
+    },
+    {
+      "path": "1024/gt/057.webp",
+      "bytes": 330880
+    },
+    {
+      "path": "1024/source_hevc/057.webp",
+      "bytes": 312730
+    },
+    {
+      "path": "1024/reparam_hevc/057.webp",
+      "bytes": 282082
+    },
+    {
+      "path": "1024/texf/057.webp",
+      "bytes": 317628
+    },
+    {
+      "path": "1024/gt/058.webp",
+      "bytes": 320118
+    },
+    {
+      "path": "1024/source_hevc/058.webp",
+      "bytes": 302138
+    },
+    {
+      "path": "1024/reparam_hevc/058.webp",
+      "bytes": 273078
+    },
+    {
+      "path": "1024/texf/058.webp",
+      "bytes": 307480
+    },
+    {
+      "path": "1024/gt/059.webp",
+      "bytes": 309294
+    },
+    {
+      "path": "1024/source_hevc/059.webp",
+      "bytes": 291220
+    },
+    {
+      "path": "1024/reparam_hevc/059.webp",
+      "bytes": 262680
+    },
+    {
+      "path": "1024/texf/059.webp",
+      "bytes": 296328
+    },
+    {
+      "path": "1024/gt/060.webp",
+      "bytes": 300818
+    },
+    {
+      "path": "1024/source_hevc/060.webp",
+      "bytes": 282782
+    },
+    {
+      "path": "1024/reparam_hevc/060.webp",
+      "bytes": 255046
+    },
+    {
+      "path": "1024/texf/060.webp",
+      "bytes": 287684
+    },
+    {
+      "path": "1024/gt/061.webp",
+      "bytes": 290038
+    },
+    {
+      "path": "1024/source_hevc/061.webp",
+      "bytes": 271636
+    },
+    {
+      "path": "1024/reparam_hevc/061.webp",
+      "bytes": 244148
+    },
+    {
+      "path": "1024/texf/061.webp",
+      "bytes": 277194
+    },
+    {
+      "path": "1024/gt/062.webp",
+      "bytes": 280692
+    },
+    {
+      "path": "1024/source_hevc/062.webp",
+      "bytes": 262578
+    },
+    {
+      "path": "1024/reparam_hevc/062.webp",
+      "bytes": 235522
+    },
+    {
+      "path": "1024/texf/062.webp",
+      "bytes": 267816
+    },
+    {
+      "path": "1024/gt/063.webp",
+      "bytes": 273050
+    },
+    {
+      "path": "1024/source_hevc/063.webp",
+      "bytes": 254410
+    },
+    {
+      "path": "1024/reparam_hevc/063.webp",
+      "bytes": 228436
+    },
+    {
+      "path": "1024/texf/063.webp",
+      "bytes": 260420
+    },
+    {
+      "path": "1024/gt/064.webp",
+      "bytes": 266284
+    },
+    {
+      "path": "1024/source_hevc/064.webp",
+      "bytes": 246980
+    },
+    {
+      "path": "1024/reparam_hevc/064.webp",
+      "bytes": 221106
+    },
+    {
+      "path": "1024/texf/064.webp",
+      "bytes": 253264
+    },
+    {
+      "path": "1024/gt/065.webp",
+      "bytes": 261846
+    },
+    {
+      "path": "1024/source_hevc/065.webp",
+      "bytes": 242854
+    },
+    {
+      "path": "1024/reparam_hevc/065.webp",
+      "bytes": 217382
+    },
+    {
+      "path": "1024/texf/065.webp",
+      "bytes": 248106
+    },
+    {
+      "path": "1024/gt/066.webp",
+      "bytes": 259384
+    },
+    {
+      "path": "1024/source_hevc/066.webp",
+      "bytes": 240816
+    },
+    {
+      "path": "1024/reparam_hevc/066.webp",
+      "bytes": 215346
+    },
+    {
+      "path": "1024/texf/066.webp",
+      "bytes": 245992
+    },
+    {
+      "path": "1024/gt/067.webp",
+      "bytes": 261816
+    },
+    {
+      "path": "1024/source_hevc/067.webp",
+      "bytes": 243954
+    },
+    {
+      "path": "1024/reparam_hevc/067.webp",
+      "bytes": 217894
+    },
+    {
+      "path": "1024/texf/067.webp",
+      "bytes": 248232
+    },
+    {
+      "path": "1024/gt/068.webp",
+      "bytes": 273408
+    },
+    {
+      "path": "1024/source_hevc/068.webp",
+      "bytes": 254470
+    },
+    {
+      "path": "1024/reparam_hevc/068.webp",
+      "bytes": 228500
+    },
+    {
+      "path": "1024/texf/068.webp",
+      "bytes": 260086
+    },
+    {
+      "path": "1024/gt/069.webp",
+      "bytes": 287464
+    },
+    {
+      "path": "1024/source_hevc/069.webp",
+      "bytes": 267398
+    },
+    {
+      "path": "1024/reparam_hevc/069.webp",
+      "bytes": 241708
+    },
+    {
+      "path": "1024/texf/069.webp",
+      "bytes": 273320
+    },
+    {
+      "path": "1024/gt/070.webp",
+      "bytes": 301790
+    },
+    {
+      "path": "1024/source_hevc/070.webp",
+      "bytes": 281324
+    },
+    {
+      "path": "1024/reparam_hevc/070.webp",
+      "bytes": 254392
+    },
+    {
+      "path": "1024/texf/070.webp",
+      "bytes": 288060
+    },
+    {
+      "path": "1024/gt/071.webp",
+      "bytes": 315532
+    },
+    {
+      "path": "1024/source_hevc/071.webp",
+      "bytes": 294506
+    },
+    {
+      "path": "1024/reparam_hevc/071.webp",
+      "bytes": 267082
+    },
+    {
+      "path": "1024/texf/071.webp",
+      "bytes": 301958
+    },
+    {
+      "path": "1024/gt/072.webp",
+      "bytes": 328628
+    },
+    {
+      "path": "1024/source_hevc/072.webp",
+      "bytes": 307004
+    },
+    {
+      "path": "1024/reparam_hevc/072.webp",
+      "bytes": 278382
+    },
+    {
+      "path": "1024/texf/072.webp",
+      "bytes": 314954
+    },
+    {
+      "path": "1024/gt/073.webp",
+      "bytes": 342362
+    },
+    {
+      "path": "1024/source_hevc/073.webp",
+      "bytes": 320624
+    },
+    {
+      "path": "1024/reparam_hevc/073.webp",
+      "bytes": 289454
+    },
+    {
+      "path": "1024/texf/073.webp",
+      "bytes": 328286
+    },
+    {
+      "path": "1024/gt/074.webp",
+      "bytes": 355046
+    },
+    {
+      "path": "1024/source_hevc/074.webp",
+      "bytes": 333270
+    },
+    {
+      "path": "1024/reparam_hevc/074.webp",
+      "bytes": 300366
+    },
+    {
+      "path": "1024/texf/074.webp",
+      "bytes": 340682
+    },
+    {
+      "path": "1024/gt/075.webp",
+      "bytes": 366716
+    },
+    {
+      "path": "1024/source_hevc/075.webp",
+      "bytes": 344616
+    },
+    {
+      "path": "1024/reparam_hevc/075.webp",
+      "bytes": 309178
+    },
+    {
+      "path": "1024/texf/075.webp",
+      "bytes": 352468
+    },
+    {
+      "path": "1024/gt/076.webp",
+      "bytes": 378628
+    },
+    {
+      "path": "1024/source_hevc/076.webp",
+      "bytes": 356492
+    },
+    {
+      "path": "1024/reparam_hevc/076.webp",
+      "bytes": 319548
+    },
+    {
+      "path": "1024/texf/076.webp",
+      "bytes": 364896
+    },
+    {
+      "path": "1024/gt/077.webp",
+      "bytes": 389572
+    },
+    {
+      "path": "1024/source_hevc/077.webp",
+      "bytes": 366392
+    },
+    {
+      "path": "1024/reparam_hevc/077.webp",
+      "bytes": 327320
+    },
+    {
+      "path": "1024/texf/077.webp",
+      "bytes": 374280
+    },
+    {
+      "path": "1024/gt/078.webp",
+      "bytes": 400584
+    },
+    {
+      "path": "1024/source_hevc/078.webp",
+      "bytes": 376638
+    },
+    {
+      "path": "1024/reparam_hevc/078.webp",
+      "bytes": 335494
+    },
+    {
+      "path": "1024/texf/078.webp",
+      "bytes": 383974
+    },
+    {
+      "path": "1024/gt/079.webp",
+      "bytes": 408480
+    },
+    {
+      "path": "1024/source_hevc/079.webp",
+      "bytes": 385306
+    },
+    {
+      "path": "1024/reparam_hevc/079.webp",
+      "bytes": 341220
+    },
+    {
+      "path": "1024/texf/079.webp",
+      "bytes": 391844
+    },
+    {
+      "path": "1024/gt/080.webp",
+      "bytes": 414904
+    },
+    {
+      "path": "1024/source_hevc/080.webp",
+      "bytes": 392534
+    },
+    {
+      "path": "1024/reparam_hevc/080.webp",
+      "bytes": 346088
+    },
+    {
+      "path": "1024/texf/080.webp",
+      "bytes": 397456
+    },
+    {
+      "path": "1024/gt/081.webp",
+      "bytes": 419564
+    },
+    {
+      "path": "1024/source_hevc/081.webp",
+      "bytes": 397666
+    },
+    {
+      "path": "1024/reparam_hevc/081.webp",
+      "bytes": 348534
+    },
+    {
+      "path": "1024/texf/081.webp",
+      "bytes": 401950
+    },
+    {
+      "path": "1024/gt/082.webp",
+      "bytes": 421978
+    },
+    {
+      "path": "1024/source_hevc/082.webp",
+      "bytes": 400782
+    },
+    {
+      "path": "1024/reparam_hevc/082.webp",
+      "bytes": 348846
+    },
+    {
+      "path": "1024/texf/082.webp",
+      "bytes": 403486
+    },
+    {
+      "path": "1024/gt/083.webp",
+      "bytes": 423026
+    },
+    {
+      "path": "1024/source_hevc/083.webp",
+      "bytes": 402440
+    },
+    {
+      "path": "1024/reparam_hevc/083.webp",
+      "bytes": 347286
+    },
+    {
+      "path": "1024/texf/083.webp",
+      "bytes": 403878
+    },
+    {
+      "path": "1024/gt/084.webp",
+      "bytes": 422924
+    },
+    {
+      "path": "1024/source_hevc/084.webp",
+      "bytes": 402704
+    },
+    {
+      "path": "1024/reparam_hevc/084.webp",
+      "bytes": 345508
+    },
+    {
+      "path": "1024/texf/084.webp",
+      "bytes": 402796
+    },
+    {
+      "path": "1024/gt/085.webp",
+      "bytes": 422648
+    },
+    {
+      "path": "1024/source_hevc/085.webp",
+      "bytes": 403714
+    },
+    {
+      "path": "1024/reparam_hevc/085.webp",
+      "bytes": 344300
+    },
+    {
+      "path": "1024/texf/085.webp",
+      "bytes": 403012
+    },
+    {
+      "path": "1024/gt/086.webp",
+      "bytes": 424884
+    },
+    {
+      "path": "1024/source_hevc/086.webp",
+      "bytes": 406302
+    },
+    {
+      "path": "1024/reparam_hevc/086.webp",
+      "bytes": 344932
+    },
+    {
+      "path": "1024/texf/086.webp",
+      "bytes": 403828
+    },
+    {
+      "path": "1024/gt/087.webp",
+      "bytes": 424850
+    },
+    {
+      "path": "1024/source_hevc/087.webp",
+      "bytes": 407936
+    },
+    {
+      "path": "1024/reparam_hevc/087.webp",
+      "bytes": 345242
+    },
+    {
+      "path": "1024/texf/087.webp",
+      "bytes": 403892
+    },
+    {
+      "path": "1024/gt/088.webp",
+      "bytes": 426686
+    },
+    {
+      "path": "1024/source_hevc/088.webp",
+      "bytes": 410206
+    },
+    {
+      "path": "1024/reparam_hevc/088.webp",
+      "bytes": 346168
+    },
+    {
+      "path": "1024/texf/088.webp",
+      "bytes": 406162
+    },
+    {
+      "path": "1024/gt/089.webp",
+      "bytes": 429488
+    },
+    {
+      "path": "1024/source_hevc/089.webp",
+      "bytes": 412668
+    },
+    {
+      "path": "1024/reparam_hevc/089.webp",
+      "bytes": 349590
+    },
+    {
+      "path": "1024/texf/089.webp",
+      "bytes": 408506
+    },
+    {
+      "path": "1024/gt/090.webp",
+      "bytes": 430200
+    },
+    {
+      "path": "1024/source_hevc/090.webp",
+      "bytes": 413192
+    },
+    {
+      "path": "1024/reparam_hevc/090.webp",
+      "bytes": 350720
+    },
+    {
+      "path": "1024/texf/090.webp",
+      "bytes": 409188
+    },
+    {
+      "path": "1024/gt/091.webp",
+      "bytes": 435170
+    },
+    {
+      "path": "1024/source_hevc/091.webp",
+      "bytes": 417686
+    },
+    {
+      "path": "1024/reparam_hevc/091.webp",
+      "bytes": 356960
+    },
+    {
+      "path": "1024/texf/091.webp",
+      "bytes": 414552
+    },
+    {
+      "path": "1024/gt/092.webp",
+      "bytes": 442148
+    },
+    {
+      "path": "1024/source_hevc/092.webp",
+      "bytes": 423464
+    },
+    {
+      "path": "1024/reparam_hevc/092.webp",
+      "bytes": 364742
+    },
+    {
+      "path": "1024/texf/092.webp",
+      "bytes": 422292
+    },
+    {
+      "path": "1024/gt/093.webp",
+      "bytes": 448078
+    },
+    {
+      "path": "1024/source_hevc/093.webp",
+      "bytes": 430030
+    },
+    {
+      "path": "1024/reparam_hevc/093.webp",
+      "bytes": 373288
+    },
+    {
+      "path": "1024/texf/093.webp",
+      "bytes": 429042
+    },
+    {
+      "path": "1024/gt/094.webp",
+      "bytes": 454458
+    },
+    {
+      "path": "1024/source_hevc/094.webp",
+      "bytes": 436038
+    },
+    {
+      "path": "1024/reparam_hevc/094.webp",
+      "bytes": 380904
+    },
+    {
+      "path": "1024/texf/094.webp",
+      "bytes": 435448
+    },
+    {
+      "path": "1024/gt/095.webp",
+      "bytes": 459820
+    },
+    {
+      "path": "1024/source_hevc/095.webp",
+      "bytes": 440952
+    },
+    {
+      "path": "1024/reparam_hevc/095.webp",
+      "bytes": 386542
+    },
+    {
+      "path": "1024/texf/095.webp",
+      "bytes": 441218
+    }
+  ]
+}

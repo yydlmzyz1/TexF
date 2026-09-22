@@ -1,0 +1,62 @@
+[
+  {
+    "id": "face",
+    "label": "Face",
+    "frame": 0,
+    "box": [
+      880,
+      240,
+      1392,
+      752
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/face/gt.webp",
+        "bytes": 106536
+      },
+      "source_hevc": {
+        "path": "details/face/source_hevc.webp",
+        "bytes": 69164
+      },
+      "reparam_hevc": {
+        "path": "details/face/reparam_hevc.webp",
+        "bytes": 78460
+      },
+      "texf": {
+        "path": "details/face/texf.webp",
+        "bytes": 85004
+      }
+    }
+  },
+  {
+    "id": "basketball",
+    "label": "Basketball",
+    "frame": 0,
+    "box": [
+      780,
+      580,
+      1420,
+      1220
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/basketball/gt.webp",
+        "bytes": 189194
+      },
+      "source_hevc": {
+        "path": "details/basketball/source_hevc.webp",
+        "bytes": 105984
+      },
+      "reparam_hevc": {
+        "path": "details/basketball/reparam_hevc.webp",
+        "bytes": 127980
+      },
+      "texf": {
+        "path": "details/basketball/texf.webp",
+        "bytes": 135394
+      }
+    }
+  }
+]

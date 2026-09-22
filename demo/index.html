@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TexF · Side-by-side Comparison</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="comparison-page" data-root="data/">
+  <main>
+    <header>
+      <a class="project" href="https://yydlmzyz1.github.io/TexF/">TexF</a>
+      <h1>Texture Compression Comparison</h1>
+      <p class="intro">Rotate and zoom either image. Both views stay in sync.</p>
+    </header>
+    <section class="demo" aria-labelledby="asset-title">
+      <div class="demo-heading">
+        <h2 id="asset-title">Promo Ashtray</h2>
+        <div class="view-options">
+          <label class="resolution" id="detail-control" hidden>View <select id="detail"><option value="">Rotate model</option></select></label>
+          <label class="resolution">Model <select id="asset">
+            <optgroup label="Bitstream compression">
+            <option value="promo-ashtray">Promo Ashtray</option>
+            <option value="basket">Basket</option>
+            <option value="police-station">Police Station</option>
+            <option value="hussar">Hussar</option>
+            </optgroup>
+            <optgroup label="GPU-resident compression">
+              <option value="memory-wooden-gramophone">Wooden Gramophone</option>
+              <option value="memory-police-station">Police Station</option>
+              <option value="memory-butterflies-collection">Butterflies Collection</option>
+              <option value="memory-grey-knight">Grey Knight</option>
+            </optgroup>
+          </select></label>
+          <label class="resolution" id="resolution-control">Image size <select id="resolution" disabled>
+            <option value="1024">1024 · Faster</option><option value="2048">2048 · Detail</option>
+          </select></label>
+          <button type="button" id="layout" aria-pressed="false">Single image</button>
+        </div>
+      </div>
+      <div id="panels" class="panels">
+        <section class="comparison-panel" id="left-panel" aria-label="Left comparison">
+          <div class="panel-heading"><label>Left <select id="left-method" disabled></select></label><p id="left-rate">Original texture</p><p class="quality" id="left-quality" hidden></p></div>
+          <div id="left-stage" class="stage" tabindex="0" role="group" aria-label="Left view. Drag to rotate; scroll or pinch to zoom; drag to pan when enlarged.">
+            <img id="left-image" alt="GT" width="2048" height="2048" draggable="false">
+            <span id="left-label" class="mode-label">GT</span>
+          </div>
+        </section>
+        <section class="comparison-panel" id="right-panel" aria-label="Right comparison">
+          <div class="panel-heading"><label><span id="right-title">Right</span> <select id="right-method" disabled></select></label><p id="right-rate">Loading payload size…</p><p class="quality" id="right-quality" hidden></p></div>
+          <div id="right-stage" class="stage" tabindex="0" role="group" aria-label="Right view. Drag to rotate; scroll or pinch to zoom; drag to pan when enlarged.">
+            <img id="right-image" alt="TexF/Unicorn" width="2048" height="2048" draggable="false">
+            <span id="right-label" class="mode-label">TexF/Unicorn</span>
+          </div>
+        </section>
+      </div>
+      <div class="paired-controls">
+        <button type="button" id="play" aria-pressed="false" disabled>▶ Auto-rotate</button>
+        <input type="range" id="angle" min="0" max="95" value="0" aria-label="Viewing angle" disabled>
+        <output id="angle-label" for="angle">0°</output>
+        <div class="zoom-buttons" role="group" aria-label="Synchronized zoom">
+          <button type="button" id="zoom-out" aria-label="Zoom out" disabled>−</button>
+          <output id="zoom-label">1×</output>
+          <button type="button" id="zoom-in" aria-label="Zoom in" disabled>+</button>
+        </div>
+        <button type="button" id="reset" disabled>Reset</button>
+      </div>
+      <p class="paired-hint" id="hint">Drag either image to rotate · Scroll / pinch to zoom</p>
+      <div id="detail-context" class="detail-context" hidden>
+        <div class="detail-map"><img id="detail-overview" alt="Detail location on the GT model" width="1024" height="1024"><span id="detail-box"></span></div>
+        <span id="detail-caption"></span>
+        <button type="button" id="detail-back">Back to rotation</button>
+      </div>
+      <p class="status" id="status" role="status">Loading comparison…</p>
+    </section>
+    <p class="note" id="comparison-note">Quality metrics follow the paper’s evaluation protocol.</p>
+  </main>
+  <script src="asset.js"></script>
+  <script src="embed.js"></script>
+  <script src="paired.js"></script>
+</body>
+</html>

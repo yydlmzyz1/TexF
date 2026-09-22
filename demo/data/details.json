@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lettering",
+    "label": "Lettering",
+    "frame": 0,
+    "box": [
+      510,
+      230,
+      1150,
+      870
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/lettering/gt.webp",
+        "bytes": 248800
+      },
+      "source_hevc": {
+        "path": "details/lettering/source_hevc.webp",
+        "bytes": 190966
+      },
+      "reparam_hevc": {
+        "path": "details/lettering/reparam_hevc.webp",
+        "bytes": 186914
+      },
+      "texf": {
+        "path": "details/lettering/texf.webp",
+        "bytes": 184490
+      }
+    }
+  },
+  {
+    "id": "emblem",
+    "label": "Emblem",
+    "frame": 0,
+    "box": [
+      736,
+      660,
+      1376,
+      1300
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/emblem/gt.webp",
+        "bytes": 278322
+      },
+      "source_hevc": {
+        "path": "details/emblem/source_hevc.webp",
+        "bytes": 217548
+      },
+      "reparam_hevc": {
+        "path": "details/emblem/reparam_hevc.webp",
+        "bytes": 219754
+      },
+      "texf": {
+        "path": "details/emblem/texf.webp",
+        "bytes": 236302
+      }
+    }
+  }
+]

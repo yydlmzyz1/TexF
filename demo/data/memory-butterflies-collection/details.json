@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pale-wings",
+    "label": "Wing veins",
+    "frame": 0,
+    "box": [
+      670,
+      450,
+      1310,
+      1090
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/pale-wings/gt.webp",
+        "bytes": 375854
+      },
+      "source_astc": {
+        "path": "details/pale-wings/source_astc.webp",
+        "bytes": 359502
+      },
+      "source_ntc": {
+        "path": "details/pale-wings/source_ntc.webp",
+        "bytes": 379794
+      },
+      "texf": {
+        "path": "details/pale-wings/texf.webp",
+        "bytes": 396968
+      }
+    }
+  },
+  {
+    "id": "patterned-wings",
+    "label": "Wing patterns",
+    "frame": 0,
+    "box": [
+      1140,
+      610,
+      1780,
+      1250
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/patterned-wings/gt.webp",
+        "bytes": 364024
+      },
+      "source_astc": {
+        "path": "details/patterned-wings/source_astc.webp",
+        "bytes": 344094
+      },
+      "source_ntc": {
+        "path": "details/patterned-wings/source_ntc.webp",
+        "bytes": 358830
+      },
+      "texf": {
+        "path": "details/patterned-wings/texf.webp",
+        "bytes": 379772
+      }
+    }
+  }
+]

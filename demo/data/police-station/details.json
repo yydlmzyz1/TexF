@@ -1,0 +1,62 @@
+[
+  {
+    "id": "roof",
+    "label": "Roof tiles",
+    "frame": 0,
+    "box": [
+      840,
+      650,
+      1480,
+      1290
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/roof/gt.webp",
+        "bytes": 494252
+      },
+      "source_hevc": {
+        "path": "details/roof/source_hevc.webp",
+        "bytes": 433620
+      },
+      "reparam_hevc": {
+        "path": "details/roof/reparam_hevc.webp",
+        "bytes": 384346
+      },
+      "texf": {
+        "path": "details/roof/texf.webp",
+        "bytes": 467548
+      }
+    }
+  },
+  {
+    "id": "facade",
+    "label": "Brickwork",
+    "frame": 0,
+    "box": [
+      700,
+      1030,
+      1340,
+      1670
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/facade/gt.webp",
+        "bytes": 505816
+      },
+      "source_hevc": {
+        "path": "details/facade/source_hevc.webp",
+        "bytes": 480240
+      },
+      "reparam_hevc": {
+        "path": "details/facade/reparam_hevc.webp",
+        "bytes": 383230
+      },
+      "texf": {
+        "path": "details/facade/texf.webp",
+        "bytes": 465566
+      }
+    }
+  }
+]

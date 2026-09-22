@@ -1,0 +1,62 @@
+[
+  {
+    "id": "roof",
+    "label": "Roof tiles",
+    "frame": 0,
+    "box": [
+      840,
+      650,
+      1480,
+      1290
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/roof/gt.webp",
+        "bytes": 494252
+      },
+      "source_astc": {
+        "path": "details/roof/source_astc.webp",
+        "bytes": 452048
+      },
+      "source_ntc": {
+        "path": "details/roof/source_ntc.webp",
+        "bytes": 484672
+      },
+      "texf": {
+        "path": "details/roof/texf.webp",
+        "bytes": 491302
+      }
+    }
+  },
+  {
+    "id": "facade",
+    "label": "Brickwork",
+    "frame": 0,
+    "box": [
+      700,
+      1030,
+      1340,
+      1670
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/facade/gt.webp",
+        "bytes": 505816
+      },
+      "source_astc": {
+        "path": "details/facade/source_astc.webp",
+        "bytes": 505498
+      },
+      "source_ntc": {
+        "path": "details/facade/source_ntc.webp",
+        "bytes": 499060
+      },
+      "texf": {
+        "path": "details/facade/texf.webp",
+        "bytes": 504182
+      }
+    }
+  }
+]

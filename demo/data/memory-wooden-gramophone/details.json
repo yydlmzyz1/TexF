@@ -1,0 +1,62 @@
+[
+  {
+    "id": "horn",
+    "label": "Horn ornament",
+    "frame": 0,
+    "box": [
+      480,
+      300,
+      1120,
+      940
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/horn/gt.webp",
+        "bytes": 276018
+      },
+      "source_astc": {
+        "path": "details/horn/source_astc.webp",
+        "bytes": 256728
+      },
+      "source_ntc": {
+        "path": "details/horn/source_ntc.webp",
+        "bytes": 250072
+      },
+      "texf": {
+        "path": "details/horn/texf.webp",
+        "bytes": 276034
+      }
+    }
+  },
+  {
+    "id": "cabinet",
+    "label": "Wood carving",
+    "frame": 0,
+    "box": [
+      1110,
+      900,
+      1750,
+      1540
+    ],
+    "source_size": 2048,
+    "files": {
+      "gt": {
+        "path": "details/cabinet/gt.webp",
+        "bytes": 227574
+      },
+      "source_astc": {
+        "path": "details/cabinet/source_astc.webp",
+        "bytes": 217600
+      },
+      "source_ntc": {
+        "path": "details/cabinet/source_ntc.webp",
+        "bytes": 219190
+      },
+      "texf": {
+        "path": "details/cabinet/texf.webp",
+        "bytes": 229044
+      }
+    }
+  }
+]

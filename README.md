@@ -52,6 +52,27 @@ Average PSNR and SSIM versus GPU memory size on MPEG (first two panels) and AOM 
 
 Texture reconstruction at the indicated GPU memory footprints. TexF/3DNTC combines compact memory use with random-access decoding.
 
+## Interactive Comparison
+
+### Bitstream Compression
+
+<p class="demo-gallery" align="center">
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=promo-ashtray"><img src="assets/promo-ashtray-preview.jpg" width="300" alt="Promo Ashtray: click to rotate and zoom.">Promo Ashtray</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=basket"><img src="assets/basket-preview.jpg" width="300" alt="Basket: click to rotate and zoom.">Basket</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=police-station"><img src="assets/police-station-preview.jpg" width="300" alt="Police Station: click to rotate and zoom.">Police Station</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=hussar"><img src="assets/hussar-preview.jpg" width="300" alt="Hussar: click to rotate and zoom.">Hussar</a>
+</p>
+
+Choose a model to rotate; select an HD detail from the View menu to compare close-ups.
+
+### GPU-Resident Compression
+
+<p class="demo-gallery memory-gallery" align="center">
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=memory-wooden-gramophone"><img src="assets/memory-wooden-gramophone-preview.jpg" width="300" alt="Wooden Gramophone GPU-resident compression: rotate and zoom.">Wooden Gramophone</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=memory-police-station"><img src="assets/memory-police-station-preview.jpg" width="300" alt="Police Station GPU-resident compression: rotate and zoom.">Police Station</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=memory-butterflies-collection"><img src="assets/memory-butterflies-collection-preview.jpg" width="300" alt="Butterflies Collection GPU-resident compression: rotate and zoom.">Butterflies Collection</a>
+  <a class="interactive-preview" href="https://yydlmzyz1.github.io/TexF/demo/?asset=memory-grey-knight"><img src="assets/memory-grey-knight-preview.jpg" width="300" alt="Grey Knight GPU-resident compression: rotate and zoom.">Grey Knight</a>
+</p>
 
 ## Updates
 
